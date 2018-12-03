@@ -171,15 +171,15 @@ a:active {
   font-size: 18px;
   padding: 15px 40px;
   display: inline-block;
-  background-color: #108fd3;
+  background-color: #4fc3f7;
   box-shadow: 0 15px 40px rgba(68, 177, 249, 0.5);
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 }
 
 .btn-main:hover, .btn-main:focus {
-  background-color: #0628bf;
+  background-color: #29b6f6;
   color: white;
-  box-shadow: 0 15px 40px #0628bf;
+  box-shadow: 0 15px 40px #29b6f6;
 }
 
 .btn-main-sm {
@@ -543,7 +543,13 @@ span{
   width: 80px;
 }
 .bg-cinza{
-  background: #f7f8fa;
+  background: #fafafa  ;
+}
+.text-cinza {
+  color: #e0e0e0;
+}
+.bg-cinza2{
+  background: #e0e0e0;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
