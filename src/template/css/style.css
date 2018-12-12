@@ -2,12 +2,14 @@
     Common Css
 --*/
 body {
+  margin-top: 116px;
   font-size: 14px;
   font-weight: 300;
   line-height: 25px;
   color: #3b4045;
   font-family: "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
+
 }
 
 h1,
@@ -58,6 +60,7 @@ ul {
 
 a {
   transition: all 0.2s ease-in-out 0s;
+  font-size: 10px;
 }
 
 .mt-100 {
@@ -69,8 +72,10 @@ a {
 }
 
 .bg-blue {
-  background: #108fd3;
-}
+ 
+    background-image: linear-gradient(to right,#000046, #1CB5E0);
+  }
+
 
 .bg-opacity {
   position: relative;
@@ -171,15 +176,15 @@ a:active {
   font-size: 18px;
   padding: 15px 40px;
   display: inline-block;
-  background-color: #4fc3f7;
+  background-color: #0086D5;
   box-shadow: 0 15px 40px rgba(68, 177, 249, 0.5);
   background-image: linear-gradient(bottom, rgba(255, 239, 206, 0) 0%, rgba(255, 239, 206, 0.25) 100%);
 }
 
 .btn-main:hover, .btn-main:focus {
-  background-color: #29b6f6;
+  background-color:#005688 ;
   color: white;
-  box-shadow: 0 15px 40px #29b6f6;
+  box-shadow: 0 15px 40px #005688;
 }
 
 .btn-main-sm {
@@ -350,7 +355,7 @@ a:active {
   color: #444;
   font-size: 25px;
   margin: 0;
-  line-height: 1;
+  line-height: .1em;
 }
 
 .nav-link {
@@ -536,7 +541,7 @@ footer p.copyright-text a:hover {
   text-decoration: none;
 }
 span{
-  color: #108fd3;
+  color:  #1F3C88;
 }
 .author-details-depoimento img{
   border-radius: 50%;
@@ -545,11 +550,53 @@ span{
 .bg-cinza{
   background: #fafafa  ;
 }
-.text-cinza {
-  color: #e0e0e0;
+
+.lista{
+ 
+  height: 250px;
+  background-image: linear-gradient(to right,#009EE0,#0086D5);
 }
-.bg-cinza2{
-  background: #e0e0e0;
+
+.descricao {
+  background: #fafafa  ;
+  padding-top: 25px;
+}
+
+.descricao h2 {
+
+  font-size: 30px;
+  font-weight: bold;
+}
+.descricao p{
+ padding-bottom: 80px;
+ padding-top: 30px;
+ font-size: 20px;
+ 
+}
+
+.bg-fundo-lista{
+  background: #E6EDF2;
+}
+
+.lista2 {
+  padding-top: 30px;
+  height: 300px;
+  background-image: linear-gradient(to right,#009EE0,#0086D5);
+}
+.descricao2 {
+  background: #fafafa  ;
+  padding-top: 25px;
+}
+
+.descricao2 h2 {
+
+  font-size: 35px;
+  font-weight: bold;
+}
+.descricao2 p{
+  
+ padding: 30px 10px 80px 10px;
+ font-size: 30px;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
