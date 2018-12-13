@@ -1,25 +1,39 @@
-(function ($) {
-    'use strict';
-
-$(window).load(function() {
-    $('#preloader-wrapper').fadeOut('slow');
-});
-
-    $('.gallery-slider').owlCarousel(
-        {
-        pagination : true,
-        autoPlay : 5000,
-        itemsDesktop  :  [1500,4],
-        itemsDesktopSmall :  [979,3]
-        }
-    );
-
-    // Gallery Popup
-    $('.image-popup').magnificPopup({type:'image'});
-
-})(jQuery);
-
-
+var app = new Vue({
+    el: '#app',
+    delimiters: ["[[", "]]"],
+    data: {
+        depoiments: [
+        	{
+        		message: 'Gostei muito do Geromel',
+        		author: 'Beri'
+        	},
+        	{
+        		message: 'Gostei muito do Eduardo',
+        		author: 'Beri2'
+        	},
+        	{
+        		message: 'Gostei muito do Odair',
+        		author: 'Beri3'
+        	},
+        	{
+        		message: 'Gostei muito do Odair',
+        		author: 'Beri3'
+        	},
+        	{
+        		message: 'Gostei muito do Odair',
+        		author: 'Beri3'
+        	},
+        	{
+        		message: 'Gostei muito do Odair',
+        		author: 'Beri3'
+        	},
+        	{
+        		message: 'Gostei muito do Odair',
+        		author: 'Beri3'
+        	}
+        ]
+    }
+})
 
 
 

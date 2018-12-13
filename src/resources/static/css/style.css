@@ -12,59 +12,9 @@ body {
 
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 300;
-  margin: 0px;
-}
-
-h1,
-.h1 {
-  font-size: 44px;
-  line-height: 56px;
-}
-
-h2,
-.h2 {
-  font-size: 30px;
-  line-height: 35px;
-}
-
-h3,
-.h3 {
-  font-size: 23px;
-  line-height: 25px;
-}
-
-h4,
-.h4 {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 400;
-}
-
-p {
-  font-size: 18px;
-  line-height: 25px;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
 a {
   transition: all 0.2s ease-in-out 0s;
   font-size: 10px;
-}
-
-.mt-100 {
-  margin-top: 100px;
 }
 
 .bg-1 {
@@ -221,7 +171,7 @@ a:active {
 }
 
 .pre-loader:before {
-  content: "\f3bd";
+  content: "...";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -599,4 +549,13 @@ span{
  font-size: 30px;
 }
 
-/*# sourceMappingURL=maps/style.css.map */
+.item-carou {
+  color: white;
+  height: 10rem;
+  background: #4DC7A0;
+  padding: 1rem;
+}
+
+.item-carou:hover{
+  cursor: pointer;
+}

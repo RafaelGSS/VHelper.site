@@ -6,3 +6,5 @@ JSON_AS_ASCII = False
 #SQLALCHEMY_DATABASE_URI = config('DB_ZADMIN_URI')
 
 FLASK_ENV = config('FLASK_ENV', default='development')
+
+TEMPLATES_AUTO_RELOAD = True
