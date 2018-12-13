@@ -8,3 +8,6 @@ bp = Blueprint('web',  __name__)
 def index():
 	return render_template('index.html')
 
+@bp.route('/contato', methods=['GET'])
+def contato():
+	return render_template('contato.html')
